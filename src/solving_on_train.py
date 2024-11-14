@@ -56,7 +56,7 @@ def main() -> None:
     start_times, end_times = get_startend_times(arc_data)
     d = createdict(solve_times, start_times, end_times)
     for i in d:
-        print(f"entered: {i[0]}, exited: {i[1]}.:")
+        print(f"entered: {i[0]}, exited: {i[1]}.")
         print(f"Solves: {d[i]}")
 
 
